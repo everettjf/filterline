@@ -1,0 +1,29 @@
+{
+  "name": "filterline",
+  "version": "1.0.0",
+  "description": "filter line by config file",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everettjf/filterline.git"
+  },
+  "keywords": [
+    "filterline"
+  ],
+  "author": "everettjf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everettjf/filterline/issues"
+  },
+  "homepage": "https://github.com/everettjf/filterline#readme",
+  "dependencies": {
+    "eoml": "^1.0.2"
+  },
+  "bin":{
+    "filterline":"./out/index.js"
+  }
+}
