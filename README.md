@@ -1,5 +1,5 @@
 # filterline
-Command line replacement for VSCode Extension[vscode-filter-line](https://github.com/everettjf/vscode-filter-line)
+Command line replacement for VSCode Extension: [vscode-filter-line](https://github.com/everettjf/vscode-filter-line)
 
 # Install
 
