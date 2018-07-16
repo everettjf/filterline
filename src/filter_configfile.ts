@@ -81,8 +81,8 @@ class FilterLineByConfigFile extends FilterLineBase{
             this._config = configReader.getConfig();
             this._configType = configReader.getConfigType();
 
-            console.log('fixed config:');
-            console.log(this._config);
+            // console.log('fixed config:');
+            // console.log(this._config);
 
             callback(true);
         });
