@@ -1,6 +1,6 @@
 {
   "name": "filterline",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "filter line by config file",
   "main": "out/index.js",
   "types": "out/index.d.ts",
@@ -23,7 +23,7 @@
   "dependencies": {
     "eoml": "^1.0.2"
   },
-  "bin":{
-    "filterline":"./out/index.js"
+  "bin": {
+    "filterline": "./out/index.js"
   }
 }

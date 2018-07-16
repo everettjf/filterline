@@ -37,6 +37,13 @@ class FilterLineByConfigFile extends FilterLineBase{
         files.push(path.join(dirname,'.vscode/filterline.eoml'));
         files.push(path.join(dirname,'.vscode/filterline.json'));
 
+        dirname = path.dirname(dirname);
+
+        files.push(path.join(dirname,'filterline.eoml'));
+        files.push(path.join(dirname,'filterline.json'));
+        files.push(path.join(dirname,'.vscode/filterline.eoml'));
+        files.push(path.join(dirname,'.vscode/filterline.json'));
+
         // console.log(files);
 
         let configpath = undefined;
@@ -47,7 +54,7 @@ class FilterLineByConfigFile extends FilterLineBase{
             }
         }
 
-        console.log(configpath);
+        // console.log('config path : ' + configpath);
 
         return configpath;
     }
@@ -59,6 +66,7 @@ class FilterLineByConfigFile extends FilterLineBase{
         }
         let configPath = this.getConfigFilePath(this._filePath);
         if(configPath === undefined){
+            this.showError('Cannot find config file');
             callback(false);
             return;
         }

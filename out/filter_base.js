@@ -35,7 +35,7 @@ class FilterLineBase {
                 }
             }).on('close', () => {
                 console.log('finish');
-                this.showInfo('complete');
+                this.showInfo('Complete :)');
             });
         });
     }

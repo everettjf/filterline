@@ -56,7 +56,7 @@ class FilterConfigReader {
             return;
         }
         // field: type <must exist>
-        console.log('config = ' + this._config);
+        // console.log('config = ' + this._config);
         this._configType = this._config['type'];
         if (this._configType) {
             let supportedTypes = [
