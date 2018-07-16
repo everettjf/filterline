@@ -18,9 +18,9 @@ class FilterConfigReader{
         var path = require('path');
         var fs = require('fs');
 
-        console.log('config path : ' + this._configPath);
-
         this._configPath = configPath;
+
+        console.log('config path : ' + this._configPath);
 
         if(!fs.existsSync(this._configPath)){
             callback(false, 'Can not locate config file ' + this._configPath );

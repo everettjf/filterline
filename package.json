@@ -1,6 +1,6 @@
 {
   "name": "filterline",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "filter line by config file",
   "main": "out/index.js",
   "types": "out/index.d.ts",
